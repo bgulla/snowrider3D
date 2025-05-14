@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ## Docker image name
-      DOCKER_IMAGE: harbor.hokies.dev/bgulla/snowrider3d:latest
+      DOCKER_IMAGE: harbor.hokies.dev/bgulla/snowrider3d
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
