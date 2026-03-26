@@ -23,7 +23,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          registry: harbor.hokies.dev
+          # registry: harbor.hokies.dev
 
       - name: Set up Build Cache
         uses: actions/cache@v3
